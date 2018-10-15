@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Swagger</name>
+    </assembly>
+    <members>
+        <member name="M:Swagger.Controllers.ValuesController.Get">
+            <summary>
+            Get List Of Values
+            </summary>
+            <returns>IEnumerable of Values</returns>
+        </member>
+        <member name="M:Swagger.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            Get An Item By Id
+            </summary>
+            <param name="id">Id of Item</param>
+            <returns>Item with Id you request</returns>
+        </member>
+        <member name="M:Swagger.Controllers.ValuesController.Post(Swagger.Model.Item)">
+            <summary>
+            Add A Vale 
+            </summary>
+            <param name="value">Value to add</param>
+        </member>
+        <member name="M:Swagger.Controllers.ValuesController.Put(System.Int32,Swagger.Model.Item)">
+            <summary>
+            Edit the Value
+            </summary>
+            <param name="id">Id of Value that you want to edit</param>
+            <param name="value">New value</param>
+        </member>
+        <member name="M:Swagger.Controllers.ValuesController.Delete(System.Int32)">
+            <summary>
+            Delete a Value
+            </summary>
+            <param name="id">Id of Value to Delete</param>
+        </member>
+    </members>
+</doc>
